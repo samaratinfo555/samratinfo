@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samrat Info - Premium IT Solutions & Services</title>
+    <meta name="description" content="Samrat Info provides top-tier IT Solutions: Custom Website Design, Mobile App Development, Professional Software & Hardware sales, repairs, and servicing. Led by Indal Kumar Jaiswal.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar" id="topBar">
+        <div class="container top-bar-content">
+            <div class="top-info-left">
+                <span><i class="fa-solid fa-phone"></i> Call us: <a href="tel:8689955268" id="topPhoneLink">8689955268</a></span>
+                <span><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:samaratinfo.555@gmail.com" id="topEmailLink">samaratinfo.555@gmail.com</a></span>
+            </div>
+            <div class="top-info-right">
+                <span><i class="fa-solid fa-clock"></i> Mon - Sat: 9:00 AM - 8:00 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="logoLink">
+                <span class="logo-accent">Samrat</span>Info
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="nav-link active" id="navHome">Home</a></li>
+                    <li><a href="#about" class="nav-link" id="navAbout">About Us</a></li>
+                    <li><a href="#services" class="nav-link" id="navServices">Services</a></li>
+                    <li><a href="#startup-hub" class="nav-link" id="navStartup">Startup Hub</a></li>
+                    <li><a href="#why-choose" class="nav-link" id="navWhyChoose">Why Us</a></li>
+                    <li><a href="#contact" class="nav-link" id="navContact">Contact</a></li>
+                    <li><a href="#" class="nav-link" id="navPortalLink"><i class="fa-solid fa-lock"></i> Portal</a></li>
+                    <li class="nav-cta-item"><a href="tel:8689955268" class="btn btn-primary btn-nav" id="navCallBtn"><i class="fa-solid fa-phone"></i> Call Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="heroSection">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-text-content">
+                <div class="badge" id="heroBadge">Next-Gen IT Partner</div>
+                <h1 id="heroTitle">Empowering Businesses with <span class="gradient-text">Advanced IT Solutions</span></h1>
+                <p class="hero-subtitle" id="heroSubtitle">We build future-ready websites, design premium mobile applications, and provide high-quality software & hardware sales and services designed to scale your operations.</p>
+                <div class="hero-cta-buttons" id="heroCtaContainer">
+                    <a href="#services" class="btn btn-primary btn-lg" id="heroExploreBtn">Explore Services <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline btn-lg" id="heroContactBtn">Get in Touch</a>
+                </div>
+                <div class="hero-features" id="heroFeatures">
+                    <div class="hero-feature-item">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Reliable Support</span>
+                    </div>
+                    <div class="hero-feature-item">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span>Fast Delivery</span>
+                    </div>
+                    <div class="hero-feature-item">
+                        <i class="fa-solid fa-user-check"></i>
+                        <span>Client Focused</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual-content">
+                <div class="hero-img-wrapper">
+                    <div class="glowing-border"></div>
+                    <img src="hero_illustration.png" alt="Samrat Info IT Solutions" class="hero-img" id="heroMainImage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" id="servicesTag">Our Services</span>
+                <h2 class="section-title" id="servicesTitle">Comprehensive IT & Tech Offerings</h2>
+                <p class="section-desc" id="servicesDesc">We deliver premium end-to-end digital and technology services designed to make your business efficient, modern, and secure.</p>
+            </div>
+
+            <div class="services-grid" id="servicesGrid">
+                
+                <!-- Service 1: Website Design -->
+                <div class="service-card" id="cardWebDesign">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper web-design">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-card-title">Website Design & UI/UX</h3>
+                    <p class="service-card-desc">Stunning, ultra-responsive websites with tailored branding, fluid animations, and highly functional layouts. Built for speed, search optimization, and seamless user experiences.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Responsive Layouts & Core Web Vitals</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Custom E-commerce platforms</li>
+                        <li><i class="fa-solid fa-circle-check"></i> High-fidelity UI/UX wireframing</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnWebDesign" onclick="selectServiceInForm('website')">Book Consultation <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 2: App Development -->
+                <div class="service-card" id="cardAppDev">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper app-dev">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="service-card-title">Mobile App Development</h3>
+                    <p class="service-card-desc">Native & cross-platform mobile apps for Android and iOS devices. From conception, wireframing, development to publishing on play stores with smooth performances.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Native Android & iOS development</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Flutter & React Native frameworks</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Secure database & API integration</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnAppDev" onclick="selectServiceInForm('app')">Book Consultation <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 3: AI Automation Solutions -->
+                <div class="service-card" id="cardAiAutomation">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper ai-automation">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="service-card-title">AI Automation Business</h3>
+                    <p class="service-card-desc">We build intelligent automation structures to streamline operational overhead, boost marketing pipelines, and deliver instant responses using custom artificial intelligence.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Smart AI Chatbots & Support Assistants</li>
+                        <li><i class="fa-solid fa-circle-check"></i> WhatsApp auto-reply systems</li>
+                        <li><i class="fa-solid fa-circle-check"></i> AI invoice generator & Content generation</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnAiAutomation" onclick="selectServiceInForm('aiautomation')">Setup AI Systems <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 4: Local Business Listing Apps -->
+                <div class="service-card" id="cardLocalListing">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper local-listing">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3 class="service-card-title">Local Listing Platforms</h3>
+                    <p class="service-card-desc">Turnkey custom-built directories (like Justdial) connecting local businesses and neighborhood customers. Start a profitable listing business centered in Noida, Kanpur, or Mumbai.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Nearby shop listings & map navigation</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Review systems, Call & WhatsApp actions</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Paid sponsored ads for business owners</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnLocalListing" onclick="selectServiceInForm('locallisting')">Inquire Business Setup <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 5: Computer Repair & IT Support -->
+                <div class="service-card" id="cardHardware">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper hardware-sales">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="service-card-title">Computer Repair & IT Support</h3>
+                    <p class="service-card-desc">End-to-end hardware procurement and service. We retail high-performance computers, laptops, routers, and provide professional maintenance, repairs, and infrastructure networking.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Laptop, Desktop & Printer repair</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Custom office network setup & hardware routing</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Annual Maintenance Contracts (AMC)</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnHardware" onclick="selectServiceInForm('hardware')">Order or Service <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 6: CCTV Sales & Services -->
+                <div class="service-card" id="cardCctv">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper cctv-services">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <h3 class="service-card-title">CCTV Sales & Services</h3>
+                    <p class="service-card-desc">Advanced surveillance systems for homes and offices. We provide consultation, high-definition IP camera installation, DVR/NVR setup, remote mobile view configurations, and Annual Maintenance Contracts.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> HD IP & Analog Cameras</li>
+                        <li><i class="fa-solid fa-circle-check"></i> DVR/NVR Remote Configuration</li>
+                        <li><i class="fa-solid fa-circle-check"></i> CCTV Repairs & AMC Maintenance</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnCctv" onclick="selectServiceInForm('cctv')">Inquire Security <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 7: Digital Marketing Agency -->
+                <div class="service-card" id="cardDigitalMarketing">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper digital-marketing">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-card-title">Digital Marketing Agency</h3>
+                    <p class="service-card-desc">Low investment, ultra-high scaling business strategy. We handle customer acquisition pathways, brand visibility, and optimized digital footprints to secure lead generation loops.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Instagram promotion & Youtube management</li>
+                        <li><i class="fa-solid fa-circle-check"></i> High-conversion Google & Meta ad campaigns</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Search Engine Optimization & Poster design</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnDigitalMarketing" onclick="selectServiceInForm('digitalmarketing')">Boost Your Sales <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 8: SaaS Software Development -->
+                <div class="service-card" id="cardSaaS">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper saas-dev">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <h3 class="service-card-title">SaaS Software Company</h3>
+                    <p class="service-card-desc">Build once, scale infinitely with monthly recurring software licenses. We specialize in engineering modern multi-tenant software architectures suited for business operational domains.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Billing & Inventory tracking softwares</li>
+                        <li><i class="fa-solid fa-circle-check"></i> School, Gym & Salon booking systems</li>
+                        <li><i class="fa-solid fa-circle-check"></i> High-security custom CRM development</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnSaaS" onclick="selectServiceInForm('saas')">Build Software <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 9: Cyber Security Services -->
+                <div class="service-card" id="cardCyberSecurity">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper cyber-security">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <h3 class="service-card-title">Cyber Security Services</h3>
+                    <p class="service-card-desc">Protect your modern business assets against digital threats. We provide comprehensive technical security consulting, data threat mitigation, and structural risk audits.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Website code protection & virus removal</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Secure office network & CCTV data locks</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Cloud database backup & office security audits</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnCyberSecurity" onclick="selectServiceInForm('cybersecurity')">Protect Assets <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 10: E-commerce Brand Setup -->
+                <div class="service-card" id="cardEcommerce">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper ecommerce-sales">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <h3 class="service-card-title">E-commerce Brand & Web</h3>
+                    <p class="service-card-desc">Launch your own retail products online. We build premium shopping channels and setup backend pipelines for high conversion, order routing, and merchant payments.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> E-commerce stores (Laptops, LED, mobile tools)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Integration with Amazon & Flipkart stores</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Payment gateway & logistics automation</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnEcommerce" onclick="selectServiceInForm('ecommerce')">Start Online Store <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Service 11: Tech Training & Events Tech -->
+                <div class="service-card" id="cardTechTraining">
+                    <div class="card-glow"></div>
+                    <div class="service-icon-wrapper tech-training">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="service-card-title">Tech Training & Event Tech</h3>
+                    <p class="service-card-desc">Custom technology stacks developed for modern institutes and event booking industries. High functional platforms designed for scale, digital tracking, and easy payments.</p>
+                    <ul class="service-features-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Tech Training Portals (Web dev, Graphic design, AI)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Event Booking Apps (Wedding & Balloon decorators)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Digital payment networks & user enrollment systems</li>
+                    </ul>
+                    <a href="#contact" class="service-learn-more" id="learnTechTraining" onclick="selectServiceInForm('techtraining')">Discuss Project <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Startup & Venture Consulting Section -->
+    <section class="startup-section" id="startup-hub">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" id="startupTag">Entrepreneur & Startup Hub</span>
+                <h2 class="section-title" id="startupTitle">Launch Your Profitable Tech Business</h2>
+                <p class="section-desc" id="startupDesc">In collaboration with Samrat Info, kickstart highly successful tech startups in India. We design, deploy, and market your products end-to-end.</p>
+            </div>
+
+            <!-- Combo suggestion row -->
+            <div class="combo-box" id="suggestedCombo">
+                <div class="combo-glow"></div>
+                <div class="combo-badge"><i class="fa-solid fa-star"></i> Recommended Venture</div>
+                <div class="combo-content">
+                    <div class="combo-text">
+                        <h3>Our Recommended Combo: "Complete IT Solution Company"</h3>
+                        <p>Why choose one when you can dominate your local market? We help you build a singular high-margin agency combining <strong>Website Dev, App Dev, Computer Repair, AI Chatbot Setup, and Digital Marketing</strong>. This structure creates robust multiple income sources with minimal infrastructure investment.</p>
+                        <div class="combo-features">
+                            <span><i class="fa-solid fa-check"></i> Low Operational Capital</span>
+                            <span><i class="fa-solid fa-check"></i> Rapid Lead Generation</span>
+                            <span><i class="fa-solid fa-check"></i> Multiple Earning Pipes</span>
+                        </div>
+                    </div>
+                    <div class="combo-action">
+                        <a href="#contact" class="btn btn-primary" onclick="selectServiceInForm('other', 'Hello Indal Kumar Jaiswal, I am interested in building a Complete IT Solution Company startup combination as recommended on your website. Please share the details.')">Get Free Combo Blueprint <i class="fa-solid fa-rocket"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Planner Grid -->
+            <div class="planner-grid">
+                
+                <!-- Sidebar Selector -->
+                <div class="planner-selector-box">
+                    <h4>Choose a Business Venture</h4>
+                    <p class="selector-sub">Select a high-growth tech model below to analyze investment, profits, features, and brand name ideas instantly:</p>
+                    <div class="selector-list" id="plannerSelectors">
+                        <button class="selector-btn active" data-venture="ai">
+                            <span class="btn-icon"><i class="fa-solid fa-robot"></i></span>
+                            <span class="btn-title">AI Automation Agency</span>
+                        </button>
+                        <button class="selector-btn" data-venture="marketing">
+                            <span class="btn-icon"><i class="fa-solid fa-bullhorn"></i></span>
+                            <span class="btn-title">Digital Marketing Agency</span>
+                        </button>
+                        <button class="selector-btn" data-venture="listing">
+                            <span class="btn-icon"><i class="fa-solid fa-map-location-dot"></i></span>
+                            <span class="btn-title">Local Business Listing App</span>
+                        </button>
+                        <button class="selector-btn" data-venture="repair">
+                            <span class="btn-icon"><i class="fa-solid fa-microchip"></i></span>
+                            <span class="btn-title">Computer Repair & IT Support</span>
+                        </button>
+                        <button class="selector-btn" data-venture="saas">
+                            <span class="btn-icon"><i class="fa-solid fa-cloud-arrow-up"></i></span>
+                            <span class="btn-title">SaaS Software Company</span>
+                        </button>
+                        <button class="selector-btn" data-venture="ecommerce">
+                            <span class="btn-icon"><i class="fa-solid fa-store"></i></span>
+                            <span class="btn-title">E-commerce Brand</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Display Panel -->
+                <div class="planner-display-card" id="plannerDisplayCard">
+                    <div class="display-glow"></div>
+                    <div class="display-header">
+                        <h3 id="displayVentureTitle">AI Automation Business</h3>
+                        <span class="badge" id="displayVentureNiche">Very High Demand</span>
+                    </div>
+
+                    <div class="metrics-row">
+                        <div class="metric-box">
+                            <span class="metric-label">Estimated Investment</span>
+                            <span class="metric-val text-green" id="displayVentureInvest">Low</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="metric-label">Profit Potential</span>
+                            <span class="metric-val text-purple" id="displayVentureProfit">Very High</span>
+                        </div>
+                        <div class="metric-box">
+                            <span class="metric-label">Startup Speed</span>
+                            <span class="metric-val" id="displayVentureSpeed">1 - 2 Weeks</span>
+                        </div>
+                    </div>
+
+                    <div class="display-details">
+                        <h4>Services You Can Offer:</h4>
+                        <ul class="display-list" id="displayVentureServices">
+                            <li><i class="fa-solid fa-chevron-right"></i> Custom AI Chatbots & assistants for sites</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> WhatsApp automation & quick replies</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> AI invoice generator & customer support workflows</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Auto AI social media content generation</li>
+                        </ul>
+
+                        <h4 class="mt-20">Prime Target Audiences:</h4>
+                        <p class="display-target" id="displayVentureTarget">Small local businesses, online coaching centers, real estate developers, and private hospitals.</p>
+
+                        <div class="display-names-box">
+                            <h5>Suggested Brand Names:</h5>
+                            <div class="suggested-names" id="displayVentureNames">
+                                <span>Nexora IT</span>
+                                <span>DigiRise Solutions</span>
+                                <span>SmartLink IT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="display-action">
+                        <a href="#contact" class="btn btn-primary btn-block" id="displayVentureCta" onclick="requestStartupPlan()">Inquire For Startup Setup Plans <i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder & About Us Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="about-card-glow"></div>
+                    <div class="about-experience-badge" id="expBadge">
+                        <span class="years">5+</span>
+                        <span class="text">Years of Tech Excellence</span>
+                    </div>
+                    <!-- Professional Founder block -->
+                    <div class="founder-badge-wrapper">
+                        <div class="founder-image-container">
+                            <img src="IMG_1.png" alt="Indal Kumar Jaiswal" class="founder-image" id="founderPortrait">
+                        </div>
+                        <h4>Indal Kumar Jaiswal</h4>
+                        <p>Founder & Managing Director</p>
+                    </div>
+                </div>
+                
+                <div class="about-text-content">
+                    <span class="section-tag" id="aboutTag">About Our Company</span>
+                    <h2 class="section-title" id="aboutTitle">Providing Quality IT Solutions & Support Since Inception</h2>
+                    <p class="about-paragraph" id="aboutPara1">
+                        <strong>Samrat Info</strong> is a premier IT Solution agency dedicated to addressing high-demand technology operations for individuals and businesses alike. Our operations cover high-end website design, seamless application architectures, customized enterprise softwares, highly efficient hardware servicing and sales, and professional CCTV security networks.
+                    </p>
+                    <p class="about-paragraph" id="aboutPara2">
+                        Under the leadership and technical guidance of our founder, <strong>Indal Kumar Jaiswal</strong>, we prioritize building trustworthy relationships, high quality standards, and absolute client gratification. Whether you require a sleek website, custom app, or a secure network setup for your office, we ensure exceptional engineering.
+                    </p>
+                    
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                            <div>
+                                <h5>Innovation First</h5>
+                                <p>Using advanced frameworks and hardware diagnostics to serve you better.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fa-solid fa-handshake"></i>
+                            <div>
+                                <h5>Reliability & Integrity</h5>
+                                <p>Transparent costs, licensed products, and high-performance repair assurance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Counter Section -->
+    <section class="why-section" id="why-choose">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" id="whyTag">Why Choose Samrat Info</span>
+                <h2 class="section-title" id="whyTitle">Engineered for Reliability</h2>
+            </div>
+            
+            <div class="features-columns">
+                <div class="feat-col-item">
+                    <div class="feat-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h4>24/7 Dedicated Support</h4>
+                    <p>Continuous hardware assistance and software monitoring whenever you need it.</p>
+                </div>
+                <div class="feat-col-item">
+                    <div class="feat-icon"><i class="fa-solid fa-award"></i></div>
+                    <h4>Certified Experts</h4>
+                    <p>Our engineers hold certified skills across hardware micro-soldering, networking, and software frameworks.</p>
+                </div>
+                <div class="feat-col-item">
+                    <div class="feat-icon"><i class="fa-solid fa-piggy-bank"></i></div>
+                    <h4>Affordable Pricing</h4>
+                    <p>Highly competitive service contracts and cost-effective product distributions without sacrificing quality.</p>
+                </div>
+            </div>
+
+            <!-- Animated counters -->
+            <div class="counters-grid" id="countersGrid">
+                <div class="counter-box">
+                    <span class="counter-number" data-target="450" id="cntClients">0</span><span class="plus">+</span>
+                    <p class="counter-label">Happy Clients</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-number" data-target="320" id="cntProjects">0</span><span class="plus">+</span>
+                    <p class="counter-label">Completed Systems</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-number" data-target="99" id="cntSuccess">0</span><span class="plus">%</span>
+                    <p class="counter-label">Success Rate</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter-number" data-target="15" id="cntSupport">0</span><span class="plus">+</span>
+                    <p class="counter-label">Tech Partners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider Section -->
+    <section class="testimonial-section" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" id="testiTag">Testimonials</span>
+                <h2 class="section-title" id="testiTitle">What Our Valued Clients Say</h2>
+            </div>
+
+            <div class="testimonial-carousel-wrapper">
+                <div class="testimonial-carousel" id="testimonialCarousel">
+                    
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active" id="slide1">
+                        <div class="testi-quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                        <p class="testi-text">"Samrat Info completely transformed our retail business! Their custom software implementation and networking setup makes tracking inventory so easy. Extremely professional service by Indal and team."</p>
+                        <div class="testi-author">
+                            <h5>Rajesh Sharma</h5>
+                            <span>Business Owner, Mumbai</span>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide" id="slide2">
+                        <div class="testi-quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                        <p class="testi-text">"I ordered a high-performance custom website and an Android app for my distribution firm. The web interface is fluid and load speed is spectacular. Will always recommend Samrat Info."</p>
+                        <div class="testi-author">
+                            <h5>Amit Verma</h5>
+                            <span>Logistics Manager</span>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide" id="slide3">
+                        <div class="testi-quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                        <p class="testi-text">"Excellent laptop servicing! My designer laptop had a critical motherboard issue. Other shops told me to replace the board, but Samrat Info successfully repaired it at a fraction of the cost."</p>
+                        <div class="testi-author">
+                            <h5>Sunita Jha</h5>
+                            <span>Graphic Designer</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Slider Controls -->
+                <div class="carousel-dots" id="carouselDots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Inquiries Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <div class="contact-info-block">
+                    <span class="section-tag" id="contactTag">Get In Touch</span>
+                    <h2 class="section-title" id="contactTitle">Ready to Start Your Project?</h2>
+                    <p class="contact-subtitle">Have questions about hardware servicing, web design, app configurations or commercial software licenses? Speak directly with us or submit your requirement below.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div class="details">
+                                <span>Call us directly</span>
+                                <a href="tel:8689955268" class="contact-link" id="contactPhoneBtn">8689955268</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="details">
+                                <span>Email our helpdesk</span>
+                                <a href="mailto:samaratinfo.555@gmail.com" class="contact-link" id="contactEmailBtn">samaratinfo.555@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fa-solid fa-user-tie"></i></div>
+                            <div class="details">
+                                <span>Founder & Owner</span>
+                                <strong>Indal Kumar Jaiswal</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="details">
+                                <span>Service Area</span>
+                                <strong>Mumbai & Surrounding Regions, India</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact / Inquiry Form -->
+                <div class="contact-form-block">
+                    <div class="form-glow"></div>
+                    <h3>Send Us an Inquiry</h3>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label for="formName">Your Full Name <span class="required">*</span></label>
+                            <input type="text" id="formName" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="formEmail">Email Address <span class="required">*</span></label>
+                                <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formPhone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="formPhone" name="phone" placeholder="8689955268" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formService">Select Service Required <span class="required">*</span></label>
+                            <select id="formService" name="service" required>
+                                <option value="" disabled selected>Choose a Service...</option>
+                                <option value="website">Website Design & Development</option>
+                                <option value="app">Mobile App Development</option>
+                                <option value="aiautomation">AI Automation & Chatbots</option>
+                                <option value="locallisting">Local Listing & Business Directory</option>
+                                <option value="hardware">Computer Repair & Hardware AMC</option>
+                                <option value="cctv">CCTV Sales & Installation</option>
+                                <option value="digitalmarketing">Digital Marketing & SEO Agency</option>
+                                <option value="saas">SaaS Systems & Multi-tenant Apps</option>
+                                <option value="cybersecurity">Cyber Security & Audits</option>
+                                <option value="ecommerce">E-commerce store setup & Branding</option>
+                                <option value="techtraining">Tech Training & Event Booking Apps</option>
+                                <option value="other">Other startup idea / combo package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Describe Your Requirement <span class="required">*</span></label>
+                            <textarea id="formMessage" name="message" rows="4" placeholder="Please provide details about your website project, system diagnostics, or software purchase..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">Submit Request <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map/Region Highlight -->
+    <section class="region-section">
+        <div class="container text-center">
+            <h3>Supporting digital infrastructure with elite services.</h3>
+            <p>Our solutions scale from individual workstation installations to complete enterprise-level operations.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-about">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-accent">Samrat</span>Info
+                </a>
+                <p class="footer-desc">Premium technological infrastructure solutions including web architectures, app engineering, corporate software distribution, and hardware micro-diagnostics.</p>
+                <p class="footer-owner"><i class="fa-solid fa-circle-user"></i> Founder: <strong>Indal Kumar Jaiswal</strong></p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services Provided</a></li>
+                    <li><a href="#why-choose">Why Partner With Us</a></li>
+                    <li><a href="#contact">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Responsive Web Design</a></li>
+                    <li><a href="#services">iOS & Android App Dev</a></li>
+                    <li><a href="#services">Enterprise Softwares</a></li>
+                    <li><a href="#services">Computer Sales & Repair</a></li>
+                    <li><a href="#services">CCTV Sales & Servicing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Support Center</h4>
+                <p class="footer-contact-info"><i class="fa-solid fa-phone"></i> Direct Line: <a href="tel:8689955268">8689955268</a></p>
+                <p class="footer-contact-info"><i class="fa-solid fa-envelope"></i> Helpdesk: <a href="mailto:samaratinfo.555@gmail.com">samaratinfo.555@gmail.com</a></p>
+                <p class="footer-contact-info"><i class="fa-solid fa-clock"></i> Hours: Mon - Sat (9am - 8pm)</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Samrat Info. All rights reserved. Managed by Indal Kumar Jaiswal.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Utility Buttons -->
+    <a href="tel:8689955268" class="floating-btn float-call" id="floatingCallBtn" aria-label="Call Samrat Info">
+        <i class="fa-solid fa-phone"></i>
+        <span class="tooltip">Call Us</span>
+    </a>
+    
+    <a href="https://wa.me/918689955268" class="floating-btn float-whatsapp" id="floatingWhatsappBtn" aria-label="Chat via WhatsApp" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="tooltip">WhatsApp</span>
+    </a>
+
+    <button class="scroll-to-top" id="scrollToTopBtn" aria-label="Scroll to Top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-card">
+            <div class="modal-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h3>Thank You!</h3>
+            <p>Your tech service request has been transmitted successfully. Indal Kumar Jaiswal or a senior technician from Samrat Info will call you back shortly within business hours.</p>
+            <button class="btn btn-primary" id="closeModalBtn">Close Window</button>
+        </div>
+    </div>
+
+    <!-- Employee Portal Modal Overlay -->
+    <div class="modal-overlay" id="portalModal">
+        <div class="portal-card" id="portalCard">
+            <!-- Close Modal -->
+            <button class="portal-close-btn" id="closePortalBtn" aria-label="Close portal">&times;</button>
+            
+            <!-- Panel A: Login Panel -->
+            <div id="portalLoginPanel">
+                <div class="portal-header">
+                    <div class="portal-logo"><span class="logo-accent">Samrat</span>Info</div>
+                    <h3>Employee Portal</h3>
+                    <p>Enter valid credentials to access repair tables, server controls, and client tickets.</p>
+                </div>
+                
+                <form id="portalLoginForm">
+                    <div class="form-group">
+                        <label for="portalUsername">Employee Username</label>
+                        <input type="text" id="portalUsername" placeholder="e.g. admin" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="portalPassword">Security Password</label>
+                        <div class="password-input-wrapper">
+                            <input type="password" id="portalPassword" placeholder="e.g. password123" required>
+                            <button type="button" class="password-toggle-btn" id="portalPasswordToggle" aria-label="Toggle password visibility">
+                                <i class="fa-solid fa-eye" id="portalPasswordEye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portal-credential-tip">
+                        <span><i class="fa-solid fa-circle-info"></i> Tooltip: Use <strong>admin</strong> & <strong>password123</strong> to test.</span>
+                    </div>
+                    
+                    <div class="portal-error-msg" id="portalErrorMsg"></div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block" id="portalLoginSubmitBtn">
+                        Authenticate & Enter <i class="fa-solid fa-shield-halved"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Panel B: Dashboard Panel (Initially Hidden) -->
+            <div id="portalDashboardPanel" style="display: none;">
+                <div class="dashboard-header">
+                    <div class="technician-info">
+                        <div class="technician-avatar"><i class="fa-solid fa-user-gear"></i></div>
+                        <div>
+                            <h4>Authorized Operator</h4>
+                            <p class="status-online"><span class="pulse-dot"></span> Console Connected (admin)</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline btn-nav" id="portalLogoutBtn">Logout <i class="fa-solid fa-right-from-bracket"></i></button>
+                </div>
+
+                <!-- Stats Grid -->
+                <div class="dash-stats-grid">
+                    <div class="dash-stat-box">
+                        <span class="stat-num text-green" id="dashActiveTickets">4</span>
+                        <span class="stat-label">Pending Tickets</span>
+                    </div>
+                    <div class="dash-stat-box">
+                        <span class="stat-num text-cyan">4 / 4</span>
+                        <span class="stat-label">Systems Online</span>
+                    </div>
+                    <div class="dash-stat-box">
+                        <span class="stat-num text-purple" id="dashCompletedTasks">188</span>
+                        <span class="stat-label">Jobs Completed</span>
+                    </div>
+                </div>
+
+                <!-- Active Tickets Table -->
+                <div class="dash-table-wrapper">
+                    <h5>Active Service Queue</h5>
+                    <table class="dash-table">
+                        <thead>
+                            <tr>
+                                <th>Client</th>
+                                <th>Service Category</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="portalTicketBody">
+                            <tr id="ticketRow1">
+                                <td>Amit Verma</td>
+                                <td><span class="badge-tag tag-app">Mobile App</span></td>
+                                <td><span class="status-badge status-progress">In Progress</span></td>
+                                <td><button class="btn-table-action" onclick="resolveTicket('ticketRow1')">Resolve</button></td>
+                            </tr>
+                            <tr id="ticketRow2">
+                                <td>Rajesh Sharma</td>
+                                <td><span class="badge-tag tag-saas">SaaS Software</span></td>
+                                <td><span class="status-badge status-progress">In Progress</span></td>
+                                <td><button class="btn-table-action" onclick="resolveTicket('ticketRow2')">Resolve</button></td>
+                            </tr>
+                            <tr id="ticketRow3">
+                                <td>Sunita Jha</td>
+                                <td><span class="badge-tag tag-hardware">Laptop Repair</span></td>
+                                <td><span class="status-badge status-queued">Queued</span></td>
+                                <td><button class="btn-table-action" onclick="resolveTicket('ticketRow3')">Resolve</button></td>
+                            </tr>
+                            <tr id="ticketRow4">
+                                <td>Coaching Center Noida</td>
+                                <td><span class="badge-tag tag-ai">AI Chatbot</span></td>
+                                <td><span class="status-badge status-queued">Queued</span></td>
+                                <td><button class="btn-table-action" onclick="resolveTicket('ticketRow4')">Resolve</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Founder directives section -->
+                <div class="founder-directives-box">
+                    <div class="directive-header">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span>Founder Indal Kumar Jaiswal's Directives</span>
+                    </div>
+                    <p>"Team, ensure the new CCTV surveillance servers are synced with the backup cloud database by 6:00 PM. High priority for Noida commercial site."</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
